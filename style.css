@@ -1,0 +1,44 @@
+*{
+margin: 0%;
+padding: 0%;
+box-sizing: border-box;
+}
+html,body{
+height: 100%;
+width: 100%;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box{
+    width: 25vmax;
+}
+img{
+    width: 100%;
+}
+.box div {
+    width: 100%;
+    padding: 20px;
+    font-family: montserrat;
+}
+
+h1 {
+    font-family: Bebas;
+    font-size: 30px;
+}
+
+p {
+    font-weight: 500;
+    margin: 5px 0;
+}
+
+button {
+    padding: 15px 30px;
+    border-radius: 20px;
+    background-color: tomato;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    border: none;
+    color: white;
+}
